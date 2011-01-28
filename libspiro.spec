@@ -11,6 +11,8 @@ URL:		http://libspiro.sourceforge.net/
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%undefine	__cxx
+
 %description
 Library to draw Raph Levien's spiro splines.
 
