@@ -5,8 +5,8 @@
 Summary:	Library to draw Raph Levien's spiro splines
 Summary(pl.UTF-8):	Biblioteka do rysowania splajnów spiro Rapha Leviena
 Name:		libspiro
-%define	pkgver	1.1.0
-%define	pkgdate	20200505
+%define	pkgver	1.3.0
+%define	pkgdate	20221101
 Version:	%{pkgver}.%{pkgdate}
 Release:	1
 Epoch:		1
@@ -14,8 +14,8 @@ License:	GPL v2+
 Group:		Libraries
 #Source0Download: https://github.com/fontforge/libspiro/releases
 Source0:	https://github.com/fontforge/libspiro/releases/download/%{pkgdate}/%{name}-dist-%{pkgdate}.tar.gz
-# Source0-md5:	d2d3eef9381c05a9a0268c0863ec9f9d
-URL:		http://libspiro.sourceforge.net/
+# Source0-md5:	e5b8cbce8e55b089de96c6ea4c2b5bf6
+URL:		https://libspiro.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %undefine	__cxx
